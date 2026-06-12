@@ -187,7 +187,7 @@ function Header() {
     <header className="site-header">
       <a className="brand" href="#top" aria-label="Portfolio home">
         <Icon name="cloud" size={48} />
-        <span>DP</span>
+        <span>MR</span>
       </a>
       <nav aria-label="Main navigation">
         <a href="#projects">Projects</a>
