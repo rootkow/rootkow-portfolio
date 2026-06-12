@@ -33,7 +33,7 @@ const projects = [
     subtitle: "Analytics Platform",
     description:
       "Parses and analyzes WoW combat logs with interactive reports and AI-assisted coaching.",
-    tags: ["Python", "FastAPI", "React", "Local LLM"],
+    tags: ["Python", "FastAPI", "React", "LLM"],
     tone: "green"
   },
   {
@@ -42,7 +42,7 @@ const projects = [
     subtitle: "Autonomous Second Brain",
     description:
       "Captures thoughts through Discord, organizes them by intent and priority, and surfaces the few items that matter.",
-    tags: ["Python", "Discord.py", "OpenAI", "Obsidian"],
+    tags: ["Python", "OpenAI", "Discord", "Obsidian"],
     tone: "purple"
   }
 ];
@@ -95,9 +95,8 @@ const stack = [
 ];
 
 const contacts = [
-  { icon: "mail", label: "hello@example.com", href: "mailto:hello@example.com" },
-  { icon: "globe", label: "example.com", href: "https://example.com" },
-  { icon: "github", label: "GitHub", href: "https://github.com" }
+  { icon: "mail", label: "matthewrutkowski@rootkow.com", href: "mailto:matthewrutkowski@rootkow.com" },
+  { icon: "github", label: "GitHub", href: "https://github.com/rootkow" }
 ];
 
 function Icon({ name, size = 22 }) {
@@ -197,7 +196,7 @@ function Header() {
         <a href="#contact">Contact</a>
         <a
           className="nav-icon"
-          href="https://github.com"
+          href="https://github.com/rootkow"
           aria-label="GitHub profile"
           rel="noreferrer"
           target="_blank"
@@ -211,9 +210,9 @@ function Header() {
 
 function ArchitectureDiagram() {
   const nodes = [
-    { icon: "cube", title: "Services", detail: "Stateless · Scalable" },
-    { icon: "spark", title: "Workers", detail: "Async · Resilient" },
-    { icon: "nodes", title: "AI / LLM", detail: "Inference · Agents" }
+    { icon: "cube", title: "Services", detail: "Modular · Maintainable · Scalable" },
+    { icon: "spark", title: "Workers", detail: "Focused · Resilient · Consistent" },
+    { icon: "nodes", title: "AI / LLM", detail: "Curious · Adaptive · Intentional" }
   ];
 
   return (
@@ -224,7 +223,7 @@ function ArchitectureDiagram() {
       <div className="connector cloud-line" />
       <div className="arch-box gateway">
         <Icon name="gateway" />
-        <div><strong>Gateway / API</strong><small>Secure · Reliable · Scalable</small></div>
+        <div><strong>Gateway / API</strong><small>Clear · Reliable · Accessible</small></div>
       </div>
       <div className="connector gateway-line" />
       <div className="arch-branches" />
@@ -240,7 +239,7 @@ function ArchitectureDiagram() {
       <div className="connector data-line" />
       <div className="arch-box data-box">
         <Icon name="database" />
-        <div><strong>Data Layer</strong><small>PostgreSQL · Redis · Object Storage</small></div>
+        <div><strong>Data Layer</strong><small>Structured · Accurate · Dependable</small></div>
       </div>
     </div>
   );
@@ -275,7 +274,7 @@ function Projects() {
       <div className="section-content">
         <div className="section-heading">
           <div><p className="kicker">Selected work</p><h2>Featured Projects</h2></div>
-          <a className="text-link" href="https://github.com" target="_blank" rel="noreferrer">
+          <a className="text-link" href="https://github.com/rootkow" target="_blank" rel="noreferrer">
             View all projects <Icon name="arrow" size={18} />
           </a>
         </div>
