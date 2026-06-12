@@ -250,13 +250,14 @@ function Hero() {
     <section className="hero content-section" id="about">
       <SectionLabel>INGRESS</SectionLabel>
       <div className="hero-copy">
-        <p className="eyebrow">Backend · Cloud · AI/ML Infrastructure</p>
-        <h1>Software Engineer</h1>
-        <p className="hero-title">Backend · Cloud · AI/ML</p>
+        <h1>Matthew Rutkowski</h1>
+        <p className="hero-title">Backend Systems · Cloud Platforms · AI Infrastructure</p>
         <p className="hero-intro">
-          A portfolio showcasing backend systems, cloud-native platforms, and AI/ML
-          infrastructure. The work focuses on production-ready services, event-driven systems,
-          and Kubernetes platforms across major cloud providers.
+            I'm a Software Engineer who builds reliable, scalable backend
+            systems—from cloud-native platforms to AI-enabled infrastructure. My
+            focus is on production-ready services, event-driven architecture, and
+            Kubernetes-based platforms that give teams a solid foundation to ship
+            with confidence.
         </p>
         <div className="hero-actions">
           <a className="button primary" href="#projects"><Icon name="arrow" />View Projects</a>
@@ -383,8 +384,7 @@ function Contact() {
         <p className="kicker">Available for the right opportunity</p>
         <h2>Let's Build Something Great</h2>
         <p>
-          This portfolio highlights production-oriented software engineering across backend,
-          cloud, platform, and AI/ML systems.
+          My work spans production-oriented backend, cloud, platform, and AI/ML systems.
         </p>
         <div className="contact-grid">
           {contacts.map((contact) => {
@@ -412,7 +412,7 @@ export default function App() {
         <PlatformStack />
         <Contact />
       </main>
-      <footer>© {new Date().getFullYear()} Developer Portfolio. Built with intent.</footer>
+      <footer>© {new Date().getFullYear()} Matthew Rutkowski. Built with intent.</footer>
     </div>
   );
 }
