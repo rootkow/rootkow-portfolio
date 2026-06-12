@@ -24,7 +24,7 @@ const projects = [
     subtitle: "PR Impact Analysis",
     description:
       "Analyzes pull request changes to surface blast-radius risks, affected systems, and verification guidance.",
-    tags: ["Python", "Git", "Static Analysis", "LLM-ready"],
+    tags: ["Python", "Git", "Static Analysis", "Impact Analysis"],
     tone: "cyan"
   },
   {
