@@ -226,7 +226,7 @@ h2 { margin-bottom: 0; font-size: clamp(25px, 2.5vw, 34px); font-weight: 600; }
 .data-line { top: 321px; height: 45px; }
 .data-box { position: relative; margin-top: 45px; min-height: 72px; border-color: rgba(112, 207, 131, .5); color: var(--green); }
 
-.project-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+.project-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; }
 .project-card {
   min-height: 290px;
   padding: 24px;

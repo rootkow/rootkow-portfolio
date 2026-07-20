@@ -44,6 +44,15 @@ const projects = [
       "Captures thoughts through Discord, organizes them by intent and priority, and surfaces the few items that matter.",
     tags: ["Python", "OpenAI", "Discord", "Obsidian"],
     tone: "purple"
+  },
+  {
+    icon: "volume",
+    title: "LevelMate",
+    subtitle: "Windows Audio Utility",
+    description:
+      "Normalizes one application's audio in real time with process-level targeting, digital boost, and adjustable EQ.",
+    tags: ["C++", "WASAPI", "DSP", "CMake"],
+    tone: "cyan"
   }
 ];
 
@@ -125,7 +134,8 @@ function Icon({ name, size = 22 }) {
     search: <><circle cx="10.5" cy="10.5" r="6.5" /><path d="m16 16 5 5" /></>,
     server: <><rect x="4" y="4" width="16" height="6" rx="1" /><rect x="4" y="14" width="16" height="6" rx="1" /><path d="M8 7h.01M8 17h.01" /></>,
     spark: <path d="m13 2-8 12h7l-1 8 8-12h-7l1-8Z" />,
-    terminal: <><path d="m4 7 5 5-5 5M11 17h9" /></>
+    terminal: <><path d="m4 7 5 5-5 5M11 17h9" /></>,
+    volume: <><path d="M11 5 6 9H3v6h3l5 4V5Z" /><path d="M15 9.5a4 4 0 0 1 0 5M18 7a7 7 0 0 1 0 10" /></>
   };
 
   return (
