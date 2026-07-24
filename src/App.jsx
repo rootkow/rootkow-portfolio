@@ -28,6 +28,15 @@ const projects = [
     tone: "cyan"
   },
   {
+    icon: "layers",
+    title: "Weavance",
+    subtitle: "Executive Function Assistant",
+    description:
+      "Turns an unstructured brain dump into one manageable next action, then adapts the plan as the day changes.",
+    tags: ["Python", "FastAPI", "React", "LLM"],
+    tone: "purple"
+  },
+  {
     icon: "pulse",
     title: "Combat Log Analyzer",
     subtitle: "Analytics Platform",
